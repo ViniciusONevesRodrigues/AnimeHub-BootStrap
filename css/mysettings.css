@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+.navbar-brand{
+    color: red;
+}
+.carousel-item h1{
+    color: whitesmoke;
+}
+.card{
+    color: white;
+}
+#organicao{
+    display: grid;
+    grid-template-areas: 
+    'x y y'
+    'x y y'
+    'x y y';
+}
+#top10{
+    grid-area: x;
+}
+#content{
+    grid-area: y;
+}
+.class h1{
+    color: red;
+}

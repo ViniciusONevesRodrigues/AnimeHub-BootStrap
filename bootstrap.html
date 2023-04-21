@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mysettings.css">
+    <link rel="icon" href="img/icon.png">
+    <title>AnimeHub</title>
+</head>
+
+<body>
+    <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js"></script>
+    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-black" style="z-index: 999;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="bootstrap.html">AnimeHub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="bootstrap.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#top10">Top 10</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#acao">Ação</a></li>
+                            <li><a class="dropdown-item" href="#comedia">Comedia</a></li>
+                            <li><a class="dropdown-item" href="#sobrenatural">Sobrenatural</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Oshinoko.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Oshi no ko</h1>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/fullmetal-alchemist-brotherhood-thumb.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Fullmetal Alchemist: Brotherhood</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/Shingeki.jpe" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Shingeki no Kyojin: The Final Season - Kanketsu-hen</h1>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div id="organicao">
+        <div id="top10" class="column">
+            <div class="card bg-dark" style="width: 18rem; margin-top: 5%;">
+                <img src="img/Oshinoko.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Top 1 - "Oshi no Ko"</p>
+                </div>
+            </div>
+            <div class="card bg-dark" style="width: 18rem; margin-top: 5%;">
+                <img src="img/fullmetal-alchemist-brotherhood-thumb.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Top 2 - Fullmetal Alchemist: Brotherhood</p>
+                </div>
+            </div>
+            <div class="card bg-dark" style="width: 18rem; margin-top: 5%;">
+                <img src="img/Shingeki.jpe" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Top 3 - Shingeki no Kyojin: The Final Season - Kanketsu-hen</p>
+                </div>
+            </div>
+            <div class="card bg-dark" style="width: 18rem; margin-top: 5%;">
+                <img src="img/Steingate.jpe" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Top 4 - Steins;Gate</p>
+                </div>
+            </div>
+            <div class="card bg-dark" style="width: 18rem; margin-top: 5%;">
+                <img src="img/bleach_sennen_kessen-hen.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Top 5 - Bleach: Sennen Kessen-hen</p>
+                </div>
+            </div>
+            <div class="card bg-dark" style="width: 18rem; margin-top: 5%;">
+                <img src="img/gintama.jpe" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Top 6 - Gintama° </p>
+                </div>
+            </div>
+            <div class="card bg-dark" style="width: 18rem; margin-top: 5%;">
+                <img src="img/Kaguya.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Top 7 - Kaguya-sama wa Kokurasetai: Ultra Romantic</p>
+                </div>
+            </div>
+            <div class="card bg-dark" style="width: 18rem; margin-top: 5%;">
+                <img src="img/HxH.jpe" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Top 8 - Hunter x Hunter (2011)</p>
+                </div>
+            </div>
+            <div class="card bg-dark" style="width: 18rem; margin-top: 5%;">
+                <img src="img/Fruit.jpe" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Top 9 - Fruits Basket: The Final</p>
+                </div>
+            </div>
+            <div class="card bg-dark" style="width: 18rem; margin-top: 5%;">
+                <img src="img/Vozdosilencio.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Top 10 - Koe no Katachi</p>
+                </div>
+            </div>
+        </div>
+        <div id="acao" class="class" class="column" style="margin-top: 5%;">
+            <h1>Ação</h1>
+            <div id="content" class="row">
+                <div class="list-group" style="width: 18rem; margin-top: 5%;">
+                    <img src="img/bleach_sennen_kessen-hen.jpg" class="card-img-top" alt="...">
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                        style="background-color: red;" data-bs-target="#bleach">
+                        Leia mais
+                    </button>
+                </div>
+                <div class="list-group" style="width: 18rem; margin-top: 5%;">
+                    <img src="img/Shingeki.jpe" class="card-img-top" alt="...">
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                        style="background-color: red;" data-bs-target="#shingeki">
+                        Leia mais
+                    </button>
+                </div>
+                <div class="list-group" style="width: 18rem; margin-top: 5%;">
+                    <img src="img/HxH.jpe" class="card-img-top" alt="...">
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                        style="background-color: red;" data-bs-target="#hxh">
+                        Leia mais
+                    </button>
+                </div>
+                <div class="list-group" style="width: 18rem; margin-top: 5%;">
+                    <img src="img/fullmetal-alchemist-brotherhood-thumb.jpg" class="card-img-top" alt="...">
+                    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                        style="background-color: red;" data-bs-target="#fullmetal">
+                        Leia mais
+                    </button>
+                </div>
+            </div>
+            <div id="comedia" style="margin-top: 5%;">
+                <h1>Comedia</h1>
+                <div class="row">
+                    <div class="list-group" style="width: 18rem; margin-top: 5%;">
+                        <img src="img/Kaguya.png" class="card-img-top" alt="...">
+                        <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                            style="background-color: red;" data-bs-target="#kaguya">
+                            Leia mais
+                        </button>
+                    </div>
+                    <div class="list-group" style="width: 18rem; margin-top: 5%;">
+                        <img src="img/gintama.jpe" class="card-img-top" alt="...">
+                        <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                            style="background-color: red;" data-bs-target="#gintama">
+                            Leia mais
+                        </button>
+                    </div>
+                    <div class="list-group" style="width: 18rem; margin-top: 5%;">
+                        <img src="img/konosuba.jpe" class="card-img-top" alt="...">
+                        <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                            style="background-color: red;" data-bs-target="#konosuba">
+                            Leia mais
+                        </button>
+                    </div>
+                    <div class="list-group" style="width: 18rem; margin-top: 5%;">
+                        <img src="img/komi.jpg" class="card-img-top" alt="...">
+                        <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                            style="background-color: red;" data-bs-target="#komi">
+                            Leia mais
+                        </button>
+                    </div>
+                </div>
+                <div id="sobrenatural" style="margin-top: 5%;">
+                    <h1>Sobrenatural</h1>
+                    <div class="row">
+                        <div class="list-group" style="width: 18rem; margin-top: 5%;">
+                            <img src="img/Steingate.jpe" class="card-img-top" alt="...">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                style="background-color: red;" data-bs-target="#stein">
+                                Leia mais
+                            </button>
+                        </div>
+                        <div class="list-group" style="width: 18rem; margin-top: 5%;">
+                            <img src="img/Oshinoko.jpg" class="card-img-top" alt="...">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                style="background-color: red;" data-bs-target="#oshi">
+                                Leia mais
+                            </button>
+                        </div>
+                        <div class="list-group" style="width: 18rem; margin-top: 5%;">
+                            <img src="img/bleach_sennen_kessen-hen.jpg" class="card-img-top" alt="...">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                style="background-color: red;" data-bs-target="#bleach">
+                                Leia mais
+                            </button>
+                        </div>
+                        <div class="list-group" style="width: 18rem; margin-top: 5%;">
+                            <img src="img/Shingeki.jpe" class="card-img-top" alt="...">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                style="background-color: red;" data-bs-target="#shingeki">
+                                Leia mais
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="bleach" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Bleach: Sennen Kessen-hen</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <p>Substituto Soul Reaper Ichigo Kurosaki passa seus dias lutando contra Hollows, perigosos
+                            espíritos malignos que ameaçam a cidade de Karakura. Ichigo realiza sua busca com seus
+                            aliados mais próximos: Orihime Inoue, sua amiga de infância com talento para a cura;
+                            Yasutora Sado, seu colega de escola com força sobre-humana; e Uryuu Ishida, rival Quincy
+                            de Ichigo.
+                            <br>
+                            A rotina vigilante de Ichigo é interrompida pelo súbito aparecimento de Asguiaro Ebern,
+                            um perigoso Arrancar que anuncia o retorno de Yhwach, um antigo rei Quincy. Yhwach busca
+                            reacender a histórica rixa de sangue entre Soul Reaper e Quincy, e ele se concentra em
+                            apagar o mundo humano e a Soul Society para sempre.
+                            <br>
+                            Yhwach lança uma invasão dupla na Soul Society e no Hueco Mundo, a casa de Hollows e
+                            Arrancar. Em retaliação, Ichigo e seus amigos devem lutar ao lado de antigos aliados e
+                            inimigos para acabar com a campanha de carnificina de Yhwach antes que o próprio mundo
+                            acabe.
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qb8M9Wg1QnQ"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="shingeki" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Shingeki no Kyojin: The Final Season - Kanketsu-hen</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <p>Após as ações cataclísmicas de Eren Yeager, seus amigos e ex-inimigos formam uma aliança
+                            contra sua fúria genocida. Embora uma vez inimigos amargos, Armin Arlert, Mikasa
+                            Ackerman e os membros restantes do Regimento de Reconhecimento unem forças com Reiner
+                            Braun e os sobreviventes do exército Marleyano. Sua escassa frente unida parte em uma
+                            missão para parar a ira de Eren e, se possível, salvar seu antigo camarada no processo.
+                            <br>
+                            Enquanto Eren avança a qualquer custo, ele luta contra sua própria turbulência interna.
+                            Embora sinta imenso remorso por sua terrível invasão, Eren acredita que ele nutre nobres
+                            intenções: ele acredita que o caminho a seguir é a única maneira de salvar seus amigos
+                            e, em maior medida, seu povo.
+                            <br>
+                            Os batalhões adversários espiralam em direção a um confronto final inevitável que pode
+                            ceifar a vida de milhões. Embora eles enfrentem um exército de monstros além de qualquer
+                            coisa que eles poderiam ter imaginado anteriormente, Mikasa, Armin e seus aliados
+                            permanecem corajosos diante de certa desgraça.
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/LVWkQDlHGNU"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="hxh" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Hunter x Hunter (2011)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <p>Os caçadores se dedicam a realizar tarefas perigosas, desde a travessia de territórios
+                            desconhecidos do mundo até a localização de itens e monstros raros. Antes de se tornar
+                            um Hunter, é preciso passar no Exame Hunter - um processo de seleção de alto risco no
+                            qual a maioria dos candidatos acaba deficiente ou pior, falecido.
+                            <br>
+                            Participantes ambiciosos que desafiam o notório exame carregam sua própria razão. O que
+                            motiva Gon Freecss, de 12 anos, é encontrar Ging, seu pai e ele próprio um caçador.
+                            Acreditando que encontrará seu pai tornando-se um Caçador, Gon dá o primeiro passo para
+                            trilhar o mesmo caminho.
+                            <br>
+                            Durante o Exame Hunter, Gon faz amizade com o estudante de medicina Leorio Paladiknight,
+                            o vingativo Kurapika e o ex-assassino Killua Zoldyck. Embora seus motivos sejam muito
+                            diferentes um do outro, eles se unem para um objetivo comum e começam a se aventurar em
+                            um mundo perigoso.
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/d6kBeJjTGnY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="fullmetal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Fullmetal Alchemist: Brotherhood</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <p>Depois que um terrível experimento de alquimia dá errado na casa de Elric, os irmãos
+                            Edward e Alphonse são deixados em uma nova realidade catastrófica. Ignorando o princípio
+                            alquímico que proíbe a transmutação humana, os meninos tentaram trazer sua mãe
+                            recentemente falecida de volta à vida. Em vez disso, eles sofreram perdas pessoais
+                            brutais: o corpo de Alphonse se desintegrou enquanto Edward perdeu uma perna e depois
+                            sacrificou um braço para manter a alma de Alphonse no reino físico, amarrando-a a uma
+                            armadura pesada.
+                            <br>
+                            Os irmãos são resgatados por sua vizinha Pinako Rockbell e sua neta Winry. Conhecido
+                            como um prodígio da engenharia biomecânica, Winry cria membros protéticos para Edward
+                            utilizando "automail", um metal resistente e versátil usado em robôs e armaduras de
+                            combate. Depois de anos de treinamento, os irmãos Elric partiram em uma missão para
+                            restaurar seus corpos, localizando a Pedra Filosofal - uma joia poderosa que permite a
+                            um alquimista desafiar as leis tradicionais da Troca Equivalente.
+                            <br>
+                            À medida que Edward se torna um infame alquimista e ganha o apelido de "Fullmetal", a
+                            jornada dos meninos os envolve em uma conspiração crescente que ameaça o destino do
+                            mundo.
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/kx0nBaS_q50"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="kaguya" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Kaguya-sama wa Kokurasetai: Ultra Romantic</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <p>Os membros de elite do conselho estudantil da Shuchiin Academy continuam suas travessuras
+                            competitivas do dia-a-dia. O presidente do conselho, Miyuki Shirogane, enfrenta
+                            diariamente o vice-presidente Kaguya Shinomiya, cada um lutando com unhas e dentes para
+                            enganar o outro e fazê-lo confessar seu amor romântico. Kaguya luta dentro dos limites
+                            estritos de sua família rica e tensa, rebelando-se contra seu comportamento frio e
+                            padrão enquanto se aproxima de Shirogane e do resto de seus amigos.
+                            <br>
+                            Enquanto isso, o tesoureiro do conselho Yuu Ishigami sofre sob o peso de sua paixão
+                            desesperada por Tsubame Koyasu, um popular veterano que ajuda a incutir uma nova
+                            confiança nele. Miko Iino, a mais nova membro do conselho estudantil, aproxima-se de
+                            Ishigami, que quebra as regras, enquanto se esforça para superar seu próprio código
+                            moral autoritário.
+                            <br>
+                            À medida que o amor floresce na Shuchiin Academy, os oficiais do conselho estudantil
+                            arrastam seus amigos de fora para conflitos cada vez mais cômicos.
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ld4Zxe9XmGo"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="gintama" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Gintama°</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <p>Gintoki, Shinpachi e Kagura retornam como os divertidos, mas falidos membros da equipe
+                            Yorozuya! Vivendo em uma realidade Edo alternativa, onde as espadas são proibidas e os
+                            senhores alienígenas conquistaram o Japão, eles tentam prosperar fazendo qualquer
+                            trabalho que possam colocar em suas mãos. No entanto, Shinpachi e Kagura ainda não foram
+                            pagos... Gin-chan realmente gasta todo esse dinheiro jogando pachinko?
+                            <br>
+                            Enquanto isso, quando Gintoki cambaleia bêbado para casa uma noite, uma nave alienígena
+                            cai nas proximidades. Um membro da tripulação mortalmente ferido emerge do navio e dá a
+                            Gintoki um estranho dispositivo em forma de relógio, avisando-o de que é incrivelmente
+                            poderoso e deve ser protegido. Confundindo-o com seu despertador, Gintoki quebra o
+                            dispositivo na manhã seguinte e de repente descobre que o mundo fora de seu apartamento
+                            parou. Com Kagura e Shinpachi ao seu lado, ele sai para consertar o dispositivo; embora,
+                            como sempre, nada seja tão simples para a equipe Yorozuya.
+                            <br>
+                            Cheia de humor irônico e momentos de emoção sincera, a quarta temporada de Gintama
+                            mostra Gintoki e seus amigos enfrentando suas desventuras mais hilárias e as crises mais
+                            perigosas até agora.
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DNnvEcyEgO4"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="komi" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Komi-san wa, Comyushou desu.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <p>É o primeiro dia de Shouko Komi na prestigiosa Itan Private High School, e ela já
+                            alcançou o status de Madonna da escola. Com longos cabelos negros e uma aparência alta e
+                            graciosa, ela chama a atenção de qualquer um que a encontre. Porém, há apenas um
+                            problema - apesar de sua popularidade, Shouko é péssima em se comunicar com outras
+                            pessoas.
+                            <br>
+                            Hitohito Tadano é um garoto normal do ensino médio. Com seu lema de vida de "ler a
+                            situação e ficar longe de problemas", ele rapidamente descobre que sentar ao lado de
+                            Shouko o tornou inimigo de todos em sua classe! Um dia, nocauteado por acidente,
+                            Hitohito mais tarde acorda ao som do "miau" de Shouko. Ele mente que não ouviu nada,
+                            fazendo com que Shouko fugisse. Mas antes que ela pudesse escapar, Hitohito supõe que
+                            Shouko não é capaz de falar com outras pessoas facilmente - na verdade, ela nunca foi
+                            capaz de fazer um único amigo. Hitohito resolve ajudar Shouko com seu objetivo de fazer
+                            cem amigos para que ela possa superar seu distúrbio de comunicação.
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/erF7lSzkTYA"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="konosuba" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Kono Subarashii Sekai ni Shukufuku wo!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <p>Depois de ter uma morte ridícula e patética ao voltar da compra de um jogo, o estudante
+                            do ensino médio e recluso Kazuma Satou se vê sentado diante de uma deusa bonita, mas
+                            desagradável, chamada Aqua. Ela oferece ao NEET duas opções: continuar para o céu ou
+                            reencarnar no sonho de todo jogador - um verdadeiro mundo de fantasia! Escolhendo
+                            começar uma nova vida, Kazuma é rapidamente encarregado de derrotar um Rei Demônio que
+                            está aterrorizando aldeias. Mas antes de ir, ele pode escolher um item de qualquer tipo
+                            para ajudá-lo em sua busca, e o futuro herói seleciona Aqua. Mas Kazuma cometeu um grave
+                            erro - Aqua é completamente inútil!
+                            <br>
+                            Infelizmente, seus problemas não terminam aqui; acontece que viver em um mundo assim é
+                            muito diferente de como se desenrola em um jogo. Em vez de embarcar em uma aventura
+                            emocionante, a dupla deve primeiro trabalhar para pagar suas despesas. Na verdade, seus
+                            infortúnios apenas começaram!
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/h4dX58X6ln4"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="oshi" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">"Oshi no Ko"</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <p>Ai Hoshino, de dezesseis anos, é uma idol talentosa e bonita que é adorada por seus fãs.
+                            Ela é a personificação de uma jovem donzela pura. Mas nem tudo que reluz é ouro.
+                            <br>
+                            Gorou Amemiya é um ginecologista do interior e um grande fã de Ai. Então, quando o ídolo
+                            grávido aparece em seu hospital, ele fica perplexo. Gorou promete a ela um parto seguro.
+                            Mal sabe ele, um encontro com uma figura misteriosa resultaria em sua morte prematura -
+                            ou assim ele pensou.
+                            <br>
+                            Abrindo os olhos no colo de seu amado ídolo, Gorou descobre que renasceu como Aquamarine
+                            Hoshino - o filho recém-nascido de Ai! Com seu mundo virado de cabeça para baixo, Gorou
+                            logo descobre que o mundo do showbiz é cheio de espinhos, onde o talento nem sempre gera
+                            sucesso. Será que ele conseguirá proteger o sorriso de Ai, que ele tanto ama, com a
+                            ajuda de um aliado excêntrico e inesperado?
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QUPGseI4vic"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="stein" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Steins;Gate</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <p>O excêntrico cientista Rintarou Okabe tem uma sede infindável de exploração científica.
+                            Juntamente com seu amigo estúpido, mas bem-intencionado, Mayuri Shiina e seu colega de
+                            quarto Itaru Hashida, Rintarou funda o Future Gadget Laboratory na esperança de criar
+                            inovações tecnológicas que confundem a psique humana. Apesar das alegações de grandeza,
+                            o único "gadget" notável que o trio criou é um micro-ondas que tem o poder misterioso de
+                            transformar bananas em gosma verde.
+                            <br>
+                            No entanto, quando Rintarou decide participar da conferência do neurocientista Kurisu
+                            Makise sobre viagens no tempo, ele experimenta uma série de eventos estranhos que o
+                            levam a acreditar que há mais no gadget "Phone Microwave" do que aparenta. Aparentemente
+                            capaz de enviar mensagens de texto para o passado usando o micro-ondas, Rintarou se
+                            envolve ainda mais com a "máquina do tempo", atraindo a ira e a atenção da misteriosa
+                            organização SERN.
+                            <br>
+                            Devido à nova descoberta, Rintarou e seus amigos se encontram em um perigo sempre
+                            presente. Enquanto trabalha para mitigar os danos que sua invenção causou à linha do
+                            tempo, ele não está apenas travando uma batalha para salvar seus entes queridos, mas
+                            também contra sua sanidade degradante.
+
+                        </p>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/uMYhjVwp0Fk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer p-5 m-auto" style="background-color: black; border-top: solid red;">
+        <div class="text-center">
+            <a href="#">By: ViniciusONevesRodrigues</a>
+        </div>
+    </footer>
+</body>
+
+</html>
